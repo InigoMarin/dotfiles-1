@@ -65,6 +65,7 @@ bindsym <F7> exec brightness-up.sh
 # installed.
 bindsym $mod+space exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+p exec --no-startup-id $HOME/.local/bin/passmenu
+bindsym $mod+Shift+p exec --no-startup-id $HOME/.local/bin/dmenu_generate_password
 bindsym $mod+u exec dmenu_rss
 bindsym F6 exec xbacklight -5%
 bindsym F7 exec xbacklight +5%

@@ -70,6 +70,10 @@ endfunction
 " toggle file browser
 noremap <silent> <C-E> :call ToggleNetrw()<CR>
 
+" wrap text on command Wrap
+command! -nargs=* Wrap set wrap linebreak nolist
+
+
 " plugins [lets not get to carried away]
 call plug#begin('$HOME/.vim/plugged')
 Plug 'junegunn/vim-easy-align'

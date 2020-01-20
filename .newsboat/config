@@ -33,7 +33,7 @@ browser linkhandler
 macro , open-in-browser
 macro t set browser "youtube-dl --add-metadata -ic"; open-in-browser ; set browser linkhandler
 macro a set browser "mpv --no-video"; open-in-browser ; set browser linkhandler
-macro v set browser "mpv"; open-in-browser ; set browser linkhandler
+macro v set browser "cvlc"; open-in-browser ; set browser linkhandler
 macro w set browser "firefox"; open-in-browser ; set browser linkhandler
 macro p set browser "dmenuhandler"; open-in-browser ; set browser linkhandler
 macro c set browser "xsel -b <<<" ; open-in-browser ; set browser linkhandler

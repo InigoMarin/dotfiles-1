@@ -1,14 +1,17 @@
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.scripts:$HOME/bin:/usr/local/bin:/$HOME/.local/bin:$HOME/.cargo/bin:$PATH
+path+=('$HOME/.scripts:$HOME/bin:/usr/local/bin:/$HOME/.local/bin:$HOME/.cargo/bin')
+export PATH
 
 export KEYTIMEOUT=1
 export GOPATH=$HOME/.go
 export TEXMFHOME=$HOME/.texmf
 # Path to your oh-my-zsh installation.
 export ZSH="/home/kolya/.oh-my-zsh"
-export PERL5LIB=$HOME/perl5
-
+#export PERL5LIB=$HOME/perl5
+export PERL_MM_OPT=$HOME/.perl5
 ZSH_THEME="oxide"
+
+unsetopt BEEP
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
